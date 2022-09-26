@@ -104,13 +104,24 @@ Padrão: modelo/referência/estrutura invariante/repetição/constante
 
 Por que determinar padrões?
 
-Para generalizar, com objetico de obter resolução para problemas diferentes.
+Para generalizar, com objetivo de obter resolução para problemas diferentes.
 
 Áreas que utilizam o reconhecimento de padrões: Machine learning, redes neurais, inteligência artificial e ciência de dados.
 
 -----------------------------------------------------------------------------
 /*-----------------------------Pilares: Abstração--------------------------*/
 -----------------------------------------------------------------------------
+
+Abstrair: É observar um ou mais elementos, avaliando características e propriedades em separado (detectar características).
+
+Abstração: É um processo intelectual de isolamento de um objeto da realidade (é estrapolar um objeto do mundo concreto para o mundo das ideias)
+
+Generalizar: Tonar algo mais amplo, extenso.
+
+Como classificar os dados?
+* Características
+* Pontos essenciais
+* Generalizar x detalhar
 
 -----------------------------------------------------------------------------
 /*---------------------------Pilares: Algoritmos---------------------------*/
