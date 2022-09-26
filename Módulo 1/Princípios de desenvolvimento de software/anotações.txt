@@ -31,6 +31,32 @@ Com o pensamento computacional podemos solucionar qualquer problema, dividindo e
 /*-------------------------Habilidades Complementares----------------------*/
 -----------------------------------------------------------------------------
 
+Raciocíio lógico e aperfeiçoamento.
+
+Raciocíio lógico: è uma forma de pensamento estruturado, ou raciocínio, que permite encontrar a conclusão ou determinar 
+a resolução de um problema. Quanto mais eu treino, melhor fica.
+
+Pode haver 3 classificações:
+
+* Indução: Vem a partir da observação (fenômeno observado) e a partir disso é possível criar leis e teorias 
+           relacionada a observação, ou seja, eu induso que "tal coisa" acontece devido a "tal observação". -> Ciências Experimentais.
+
+* Dedução: É o inverso da indução. Onde que a partir de leis e teorias eu deduso previsões e explicações. -> Ciências Exatas.
+
+* Abdução: A partir de uma conclusão eu tiro uma premissa. Por exemplo; a grama está molhada, logo deve ter chovido. 
+
+
+                          -> Abdução
+            ->  Sintética 
+Inferência                -> Indução
+
+            ->  Analítica -> Dedução
+
+
+Aperfeiçoamento:
+
+Melhoramento, Aprimoramento e Refinamento -> Melhor uso de recursos e mellhorar códigos e algoritmos.
+
 -----------------------------------------------------------------------------
 /*-------------------------Pilares: Decomposição---------------------------*/
 -----------------------------------------------------------------------------
