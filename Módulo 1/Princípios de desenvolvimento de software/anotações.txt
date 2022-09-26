@@ -100,6 +100,14 @@ outro exemplo, criar um app
 /*-----------------------------Pilares: Padrões----------------------------*/
 -----------------------------------------------------------------------------
 
+Padrão: modelo/referência/estrutura invariante/repetição/constante
+
+Por que determinar padrões?
+
+Para generalizar, com objetico de obter resolução para problemas diferentes.
+
+Áreas que utilizam o reconhecimento de padrões: Machine learning, redes neurais, inteligência artificial e ciência de dados.
+
 -----------------------------------------------------------------------------
 /*-----------------------------Pilares: Abstração--------------------------*/
 -----------------------------------------------------------------------------
