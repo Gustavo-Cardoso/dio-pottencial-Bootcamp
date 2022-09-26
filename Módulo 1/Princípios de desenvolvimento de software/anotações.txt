@@ -61,6 +61,41 @@ Melhoramento, Aprimoramento e Refinamento -> Melhor uso de recursos e mellhorar 
 /*-------------------------Pilares: Decomposição---------------------------*/
 -----------------------------------------------------------------------------
 
+"Se você tem um problema que você não consegue resolver, existe um problema mais fácil que você pode resolver: Encontre-o"
+                                                                                George polya - professor e matemático
+
+É quebra/seguimentar/decompor o problema.
+
+Estratégias:
+
+Análise: Estudar e explorar o contexto do problema afim de decompor em elementos constituíntes .
+
+Síntese: Ideia de construção, onde eu combino os elementos utilizando o problema original (Ela é um passo a passo), onde primeiro 
+é necessário fazer a análise e depois recombinar/recompor o problema original afim de fazer sentido (Fundir os elementos de 
+maneira coerente/ reunir elementosdistintos em um único elemento).
+
+E qual a ordem de execução dessas tarefas menores (divisão do problema original)?
+
+Elas podem ser sequêncial ou paralelo, para definir qual usar, vai depender do contexto, o que eu preciso...
+
+Sequêncial: Dependência entre tarefas, executadas em "fila". 
+
+Paralelo: Tarefas podem ser executadas juntas. Maior eficiência e menos tempo para desenvolvimento (porém depende do contexto).
+
+Como decompor? Identificar ou coletar os dados -> Agregar os dados -> Funcionalidades
+        Por exemplo: Cozinhar
+
+* Identifico os ingredientes
+* Determinar as etapas
+* Executar cada etapa
+* Agregas (juntar) os ingredientes para finalizar (recompor com coerência)
+
+outro exemplo, criar um app
+
+* Finalidade
+* Interface
+* Funcionalidades
+* Pré-requisitos
 -----------------------------------------------------------------------------
 /*-----------------------------Pilares: Padrões----------------------------*/
 -----------------------------------------------------------------------------
