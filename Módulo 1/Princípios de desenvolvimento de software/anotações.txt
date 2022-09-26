@@ -2,6 +2,31 @@
 /*---------------------------------Introdução------------------------------*/
 -----------------------------------------------------------------------------
 
+Pensamento computacional: Não se restringe somente ao meio computacional e as ciências exetas, as é um processo
+envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador.
+                                                            (Aho, 2011; Lee, 2016)
+
+Quando anotamos o que aprendemos, passamos o aprendizado da memória RAM para o HD.
+
+O pensamento computacional não é uma disciplina acadêmina, mas sim uma halidade generalista, onde é possível utilizar
+ela em: Matemática, leitura, escrita...
+
+Com o pensamento computacional podemos solucionar qualquer problema, dividindo ele em 4 pilares, são eles:
+
+* Decomposição -> Pegar o problema em um todo e dividir em problemas menores e com base nas soluções dos problemas 
+                  menores, você consegue achar a solução. Por exemplo: Um bolo vamos usar a decomposição, e dividir 
+                  em 3 partes: Massa, recheio e cobertura. Na marioria das vezes que "montarmos" um bolo, sempre terá 
+                  esse padrão, em certos casos terá uma pquena mudança mas, que não irá fugir muito do padrão.
+
+* Reconhecimento de padrões -> Identificar padrões ou tendências. Similaridades e diferenças entre os problemas. 
+
+* Abstração -> Pegar o problema particular/ específico e elevar para uma forma generalista, ou seja, pego do mundo 
+               concreto e levo para o mundo das ideias. Por exemplo: Se eu for criar uma classe chamada pessoa,
+               ela teria, um nome, idade, altura, peso...
+
+* Desing de algoritmos -> Aqui definimos a solução do problema. Usando tudo que foi feito anteriormente 
+
+
 -----------------------------------------------------------------------------
 /*-------------------------Habilidades Complementares----------------------*/
 -----------------------------------------------------------------------------
