@@ -127,6 +127,38 @@ Como classificar os dados?
 /*---------------------------Pilares: Algoritmos---------------------------*/
 -----------------------------------------------------------------------------
 
+Algoritmo: É uma sequência finita de ações executáveis que visam obter uma solução para um determinado tipo de problema
+
+Obejtivo de um computador: receber, manipular e armazenar dados.
+
+Para ele realizar alguma operção é preciso que eu informe instruções detalhadas.
+
+O que precisa ser feito? ----
+                            |--> Instruções
+Qual a ordem de execução? ---
+
+Desenvolvimento do programa:
+
+* Análise -> Estudo e definição dos dados de entrada e saída
+* Algoritmo -> Descreve o problema por meio de ferramentas narrativas, fluxograma ou pseudocódigo (Pseudocódigo: é uma 
+               forma genérica de escrever um algoritmo, utilizando uma linguagem simples sem necessidade de conhecer 
+               a sintaxe de nenhuma linguagem de programação. Por exemplo: PORTUGOL)
+* Codificação -> O algoritmo é codificado de acordo com a linguagem de programação escolhida
+
+Como construir um algoritmo?
+    *Compreenção do problema
+    *Definição dados de entrade
+    *Definir processamento
+    *Definir dados de saída
+    *Utilizar um método de construção
+    *Teste e diagnóstico
+
+Narrativa -> Utilização da linguagem natural -> Diversas interpretações -> Sem conceitos novos.
+
+Fluxograma -> Utilização de símbolos pré-definidos -> Conhecimento prévio da estrutura e símbolos -> Simples entendimento.
+
+Pseudocódigo -> Portugol -> Passos a serem seguidos -> Regras definindas.
+
 -----------------------------------------------------------------------------
 /*------------------Estudo de caso conceitual: Perdido---------------------*/
 -----------------------------------------------------------------------------
