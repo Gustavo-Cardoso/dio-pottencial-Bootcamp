@@ -158,15 +158,3 @@ Narrativa -> Utilização da linguagem natural -> Diversas interpretações -> S
 Fluxograma -> Utilização de símbolos pré-definidos -> Conhecimento prévio da estrutura e símbolos -> Simples entendimento.
 
 Pseudocódigo -> Portugol -> Passos a serem seguidos -> Regras definindas.
-
------------------------------------------------------------------------------
-/*------------------Estudo de caso conceitual: Perdido---------------------*/
------------------------------------------------------------------------------
-
------------------------------------------------------------------------------
-/*------------Estudo de caso aplicado: Soma de um intervalo----------------*/
------------------------------------------------------------------------------
-
------------------------------------------------------------------------------
-/*-------------Estudo de caso aplicado: Adivinhe um número-----------------*/
------------------------------------------------------------------------------
