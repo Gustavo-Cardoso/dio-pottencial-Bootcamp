@@ -1,5 +1,4 @@
-﻿using BootcampDio.Common.Models;
-
+﻿
 // int numero = 0;
 
 // for (int i = 0; i <= 10; i++)
@@ -46,3 +45,8 @@ Console.WriteLine($"Total números digitados: {soma}");
 // {
 //     Console.WriteLine($"{numero} X {i} = {numero*i}");
 // }
+
+
+
+
+

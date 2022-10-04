@@ -1,4 +1,4 @@
-﻿using BootcampDio.Common.Models;
+﻿using ExemploTeste.Models;
 
 Pessoa pessoa1 = new Pessoa();
 
