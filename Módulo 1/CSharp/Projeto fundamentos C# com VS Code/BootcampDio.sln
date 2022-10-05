@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tabuada", "Tabuada\Tabuada.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootcampDio.Common", "BootcampDio.Common\BootcampDio.Common.csproj", "{C10E7D4E-C443-4FED-AB4A-FCABA5BA2B79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploTeste", "EXEMPLOTESTE\ExemploTeste.csproj", "{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,5 +46,17 @@ Global
 		{C10E7D4E-C443-4FED-AB4A-FCABA5BA2B79}.Release|x64.Build.0 = Release|Any CPU
 		{C10E7D4E-C443-4FED-AB4A-FCABA5BA2B79}.Release|x86.ActiveCfg = Release|Any CPU
 		{C10E7D4E-C443-4FED-AB4A-FCABA5BA2B79}.Release|x86.Build.0 = Release|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Debug|x64.Build.0 = Debug|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Debug|x86.Build.0 = Debug|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Release|x64.ActiveCfg = Release|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Release|x64.Build.0 = Release|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4DB82E9-0435-4A4D-94ED-A08CC15C749D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
