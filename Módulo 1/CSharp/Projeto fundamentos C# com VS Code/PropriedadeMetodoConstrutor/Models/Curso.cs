@@ -28,10 +28,21 @@ namespace PropriedadeMetodoConstrutor.Models
 
         public void ListarAlunos()
         {
-            Console.WriteLine($"Alunos do curso de {Nome}:");
-            foreach (Pessoa aluno in Alunos)
+            Console.WriteLine($"Alunos do curso de {Nome}:");            
+
+            // foreach (Pessoa aluno in Alunos)
+            // {
+            //     Console.WriteLine(aluno.NomeCompleto);
+            // }
+
+            for (int i = 0; i < Alunos.Count; i++)
             {
-                Console.WriteLine(aluno.NomeCompleto);
+                // Concatenação
+                //string texto = "N° " + i + " - " + Alunos[i].NomeCompleto;
+
+                // Interpolação
+                string texto = $"N° {i} - {Alunos[i].NomeCompleto}";
+                Console.WriteLine(texto);
             }
         }
     }
