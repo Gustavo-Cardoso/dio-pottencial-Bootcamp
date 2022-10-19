@@ -30,7 +30,7 @@ do sistema */
 // Formatando o tipo DateTime
 //DateTime data = DateTime.Parse("10/09/1999 14:00"); // Convertendo string para data e hora
 
-DateTime data = DateTime.Now;
+// DateTime data = DateTime.Now;
 
 // Apresentando somente dia/mês/ano hora:minuto:segundo
 // Console.WriteLine(data);
@@ -42,3 +42,14 @@ DateTime data = DateTime.Now;
 // Console.WriteLine(data.ToShortDateString()); // Apresenta somente a data
 
 // Console.WriteLine(data.ToShortTimeString()); // Apresenta somente a hora
+
+//dateTime com TryParse
+string dataString = "2022-10-18 18:00";
+
+DateTime.TryParseExact(dataString, // Variável
+                        "yyyy-MM-dd HH:mm", // Padrão da variável 
+                        CultureInfo.InvariantCulture, // Para qual cultura eu quero converter
+                        DateTimeStyles.None, // Estilo do DateTime
+                        out DateTime data);// Para qual variável vai a saída da conversão
+
+Console.WriteLine(data);
