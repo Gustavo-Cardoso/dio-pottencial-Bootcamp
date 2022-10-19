@@ -15,6 +15,16 @@ do sistema */
 //Console.WriteLine(valorMonetario.ToString("C", CultureInfo.CreateSpecificCulture("pt-BR"))); // Formatando para real mesmo com a cultura travada em "en-Us"
 
 // Criando uma formatação personalizada
-Console.WriteLine(valorMonetario.ToString("C1")); // 1 representa a quantidade de casas decimais
-Console.WriteLine(valorMonetario.ToString("C2")); // 2 representa a quantidade de casas decimais
-Console.WriteLine(valorMonetario.ToString("C8")); // 8 representa a quantidade de casas decimais
+// Console.WriteLine(valorMonetario.ToString("C1")); // 1 representa a quantidade de casas decimais
+// Console.WriteLine(valorMonetario.ToString("C2")); // 2 representa a quantidade de casas decimais
+// Console.WriteLine(valorMonetario.ToString("C8")); // 8 representa a quantidade de casas decimais
+
+// Representado porcentagem
+double CEP = 17350000;
+
+Console.WriteLine(CEP.ToString("#####-###"));
+
+// Criando uma formatação personalizada
+double porcentagem = .3421;
+
+Console.WriteLine(porcentagem.ToString("P"));
