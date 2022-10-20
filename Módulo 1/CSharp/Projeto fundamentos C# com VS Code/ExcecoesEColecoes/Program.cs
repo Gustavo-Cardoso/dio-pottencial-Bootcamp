@@ -10,6 +10,7 @@ try
     }
 
 }
+// Posso ter quantos "catch" eu precisar
 catch(FileNotFoundException ex)
 {
     Console.WriteLine($"Ocorreu um erro na leitura do arquivo. Arquivo não encontrado. {ex.Message}");
@@ -21,4 +22,8 @@ catch(DirectoryNotFoundException ex)
 catch(Exception ex)
 {
     Console.WriteLine($"Ocorreu uma exceção genérica. {ex.Message}");
+// O "finally" sempre será utilizado com ou sem erro. Ele pode fechar conexão do banco para não ficar com ela aberta consumindo memória
+}finally
+{
+    Console.WriteLine("Chegou até aqui!");
 }
