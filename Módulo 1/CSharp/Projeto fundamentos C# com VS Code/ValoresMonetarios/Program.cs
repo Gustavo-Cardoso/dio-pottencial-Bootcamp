@@ -44,12 +44,12 @@ do sistema */
 // Console.WriteLine(data.ToShortTimeString()); // Apresenta somente a hora
 
 //dateTime com TryParse
-string dataString = "2022-10-18 18:00";
+// string dataString = "2022-10-18 18:00";
 
-DateTime.TryParseExact(dataString, // Variável
-                        "yyyy-MM-dd HH:mm", // Padrão da variável 
-                        CultureInfo.InvariantCulture, // Para qual cultura eu quero converter
-                        DateTimeStyles.None, // Estilo do DateTime
-                        out DateTime data);// Para qual variável vai a saída da conversão
+// DateTime.TryParseExact(dataString, // Variável
+//                         "yyyy-MM-dd HH:mm", // Padrão da variável 
+//                         CultureInfo.InvariantCulture, // Para qual cultura eu quero converter
+//                         DateTimeStyles.None, // Estilo do DateTime
+//                         out DateTime data);// Para qual variável vai a saída da conversão
 
-Console.WriteLine(data);
+// Console.WriteLine(data);
