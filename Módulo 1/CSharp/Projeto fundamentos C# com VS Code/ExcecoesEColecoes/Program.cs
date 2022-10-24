@@ -57,24 +57,39 @@
 
 // Usando Pilha (Last IN, Fist OUT -> Último a entrar, primeiro a sair)
 
-Stack<int> pilha = new Stack<int>();
+// Stack<int> pilha = new Stack<int>();
 
-pilha.Push(4);
-pilha.Push(6);
-pilha.Push(8);
-pilha.Push(10);
+// pilha.Push(4);
+// pilha.Push(6);
+// pilha.Push(8);
+// pilha.Push(10);
 
-foreach (var item in pilha)
-{
-    Console.WriteLine(item);
-}
+// foreach (var item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
 
 // Sempre irá remover o último elemento que entrou na pilha 
-Console.WriteLine($"Removendo o elemento do topo: {pilha.Pop()}");
+// Console.WriteLine($"Removendo o elemento do topo: {pilha.Pop()}");
 
-pilha.Push(20);
+// pilha.Push(20);
 
-foreach (var item in pilha)
+// foreach (var item in pilha)
+// {
+//     Console.WriteLine(item);
+// }
+
+// Usando Dictionary
+
+// Primeiro parâmetro é a chave (id) ele não pode se repetir senão gera uma exceção, o segundo parâmetro é o valor que chave representa
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("SP", "São Paulo");
+estados.Add("RJ", "Rio de Janeiro");
+estados.Add("MG", "Minas Gerais");
+
+// foreach(KeyValuePair<string, string> item in estados)
+foreach(var item in estados)
 {
-    Console.WriteLine(item);
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
 }
