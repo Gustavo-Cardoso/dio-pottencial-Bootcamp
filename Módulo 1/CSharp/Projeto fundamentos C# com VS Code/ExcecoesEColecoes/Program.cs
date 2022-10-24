@@ -93,3 +93,16 @@ foreach(var item in estados)
 {
     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
 }
+
+Console.WriteLine("----------------------");
+
+// Removendo um valor existendo em um dictionary
+estados.Remove("RJ");
+
+// Alterando valor de uma chave existente em um dictinary
+estados["SP"] = "São Paulo - valor alterado";
+
+foreach(var item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
