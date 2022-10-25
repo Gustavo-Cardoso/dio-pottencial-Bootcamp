@@ -17,11 +17,12 @@ using System.Globalization;
 // Usando uma tupla em um método
 LeituraArquivo arquivo = new LeituraArquivo();
 
-var (sucesso, linhasArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt"); // O underline "_" nesse caso significa "DESCARTAR" uma infomração, ou seja não será utilizada
+//var (sucesso, linhasArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt"); 
 
 if(sucesso)
 {
-    Console.WriteLine("Quantidade linhas do meu arquivo: " + quantidadeLinhas);
+    // Console.WriteLine("Quantidade linhas do meu arquivo: " + quantidadeLinhas);
     foreach (string linha in linhasArquivo)
     {
         Console.WriteLine(linha);
