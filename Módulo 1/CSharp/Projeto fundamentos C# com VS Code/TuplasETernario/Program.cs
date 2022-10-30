@@ -41,5 +41,23 @@ using System.Globalization;
 
 // Console.WriteLine($"{nome} + {sobrenome}");
 
+// Vendo se um número é ímpar
 
+int numero = 15;
+bool ehPar = false;
 
+// IF comum
+
+// if (numero % 2 == 0)
+// {
+//     Console.WriteLine($"O número {numero} é par");
+// }
+// else 
+// {
+//     Console.WriteLine($"O número {numero} é ímpar");
+// }
+
+// Usando IF Ternário para ver se um número é ímpar
+
+ehPar = numero % 2 == 0;
+Console.WriteLine($"O númeor {numero} é:" + (ehPar ? "Par" : "Ímpar"));
