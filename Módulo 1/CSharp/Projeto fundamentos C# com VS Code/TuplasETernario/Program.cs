@@ -15,20 +15,31 @@ using System.Globalization;
 // Console.WriteLine($"Altura: {tupla.Item4}m");
 
 // Usando uma tupla em um método
-LeituraArquivo arquivo = new LeituraArquivo();
+// LeituraArquivo arquivo = new LeituraArquivo();
 
-var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt"); // O underline "_" nesse caso significa "DESCARTAR" uma infomração, ou seja não será utilizada
+// var (sucesso, linhasArquivo, _) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt"); // O underline "_" nesse caso significa "DESCARTAR" uma infomração, ou seja não será utilizada
 //var (sucesso, linhasArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt"); 
 
-if(sucesso)
-{
-    // Console.WriteLine("Quantidade linhas do meu arquivo: " + quantidadeLinhas);
-    foreach (string linha in linhasArquivo)
-    {
-        Console.WriteLine(linha);
-    }
-}
-else
-{
-    Console.WriteLine("não foi porssível ler o arquivo");
-}
+// if(sucesso)
+// {
+// Console.WriteLine("Quantidade linhas do meu arquivo: " + quantidadeLinhas);
+//     foreach (string linha in linhasArquivo)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("não foi porssível ler o arquivo");
+// }
+
+// Desconstrutor - Apenas separa. Exemplo: Um método com Nome e Sobrenome, é possível separar cada um deles em variáveis diferentes
+
+// Pessoa p1 = new Pessoa("Gustavo", "Cardoso");
+
+// (string nome, string sobrenome) = p1;
+
+// Console.WriteLine($"{nome} + {sobrenome}");
+
+
+
