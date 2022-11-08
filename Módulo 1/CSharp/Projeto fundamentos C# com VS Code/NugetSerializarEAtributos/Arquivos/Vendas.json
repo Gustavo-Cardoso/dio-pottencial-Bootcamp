@@ -2,11 +2,13 @@
   {
     "Id": 1,
     "Produto": "Material de escritório",
-    "Preco": 25.00
+    "Preco": 25.00,
+    "DataVenda": "2022-11-08T07:11:16.401173-03:00"
   },
   {
     "Id": 2,
     "Produto": "Caderno 10 matérias capa dura ",
-    "Preco": 18.00
+    "Preco": 18.00,
+    "DataVenda": "2022-11-08T07:11:16.401173-03:00"
   }
 ]
