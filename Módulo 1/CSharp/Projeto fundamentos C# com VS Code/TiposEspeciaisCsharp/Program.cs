@@ -48,11 +48,27 @@ using Newtonsoft.Json;
 
 /*-------------------------- Tipo Dinâmico ----------------------------*/
 
-dynamic variavelDinamica = 4;
-Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor {variavelDinamica}");
+// dynamic variavelDinamica = 4;
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor {variavelDinamica}");
 
-variavelDinamica = "texto";
-Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor {variavelDinamica}");
+// variavelDinamica = "texto";
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor {variavelDinamica}");
 
-variavelDinamica = true;
-Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor {variavelDinamica}");
+// variavelDinamica = true;
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, Valor {variavelDinamica}");
+
+/*-------------------------- Classe Genêrica ----------------------------*/
+
+MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+arrayInteiro.AdicionarElementoArray(30);
+
+Console.WriteLine(arrayInteiro[0]);
+
+
+
+MeuArray<string> arrayString = new MeuArray<string>();
+
+arrayString.AdicionarElementoArray("Teste");
+
+Console.WriteLine(arrayString[0]);
