@@ -59,16 +59,27 @@ using Newtonsoft.Json;
 
 /*-------------------------- Classe Genêrica ----------------------------*/
 
-MeuArray<int> arrayInteiro = new MeuArray<int>();
+// MeuArray<int> arrayInteiro = new MeuArray<int>();
 
-arrayInteiro.AdicionarElementoArray(30);
+// arrayInteiro.AdicionarElementoArray(30);
 
-Console.WriteLine(arrayInteiro[0]);
+// Console.WriteLine(arrayInteiro[0]);
 
 
 
-MeuArray<string> arrayString = new MeuArray<string>();
+// MeuArray<string> arrayString = new MeuArray<string>();
 
-arrayString.AdicionarElementoArray("Teste");
+// arrayString.AdicionarElementoArray("Teste");
 
-Console.WriteLine(arrayString[0]);
+// Console.WriteLine(arrayString[0]);
+
+/*-------------------------- Método de extensão ----------------------------*/
+
+int numero = 20;
+bool par = false;
+
+// IF Ternário
+par = numero.EhPar();
+
+string mensagem = "O número " + numero + " é " + (par ? "par" : "ímpar");
+Console.WriteLine(mensagem);
