@@ -1,0 +1,38 @@
+A POO (Programação Orientada a Objeto) tem 4 pilares:
+    *Abstração
+    *Encapsulamento
+    *Herança
+    *Polimorfismo
+
+Paradigma é um conjunto de regras que visa solucionar um problema.
+
+O principal conceito da POO são as classes e objetos.
+
+Exemplo:
+
+Classe: Pessoa
+-------------Atributos/Propriedades (Características)--------------------
+    Nome: string
+    Idade: Int
+
+-----------------------Métodos (Ações)-----------------------
+    Apresentar()
+    Andar()
+    Correr()
+
+*Obs: A classe é uma representação de objetos do mundo real e o objeto é a concretização da classe.
+
+-----------------------Paradigmas de programação-----------------------
+
+Um paradigma é um modelo de técnicas. Paradigma é diferente da linguagem programação. Uma linguagem 
+de programação é que vai implememtar o paradigma. Uma linguagem pode ter mais de um paradigma
+
+Alguns exemplos de paradigmas:
+
+*Programação orientada a objetos (POO).
+*Programação estrtuturada.
+*Programação imperativa.
+*Programação procedural.
+*Programação orientada a eventos.
+*Programação lógica.
+
