@@ -2,7 +2,8 @@ A POO (Programação Orientada a Objeto) tem 4 pilares:
     *Abstração
     *Encapsulamento
     *Herança
-    *Polimorfismo
+    *Polimorfismo: O polimorfismo tem 2 tipos: -> Overload/Early Binding: Tempo de compilação
+                                               -> Override/Late Biding: Tempo de Execução. Aqui você depende de herença
 
 Paradigma é um conjunto de regras que visa solucionar um problema.
 

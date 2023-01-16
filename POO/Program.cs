@@ -27,7 +27,7 @@ a1.Nota = 10;
 a1.Apresentar();
 
 Professor p1 = new Professor();
-p1.Nome = "Gustavo";
-p1.Idade = 23;
+p1.Nome = "Marcelo";
+p1.Idade = 45;
 p1.Salario = 2056.00M;
 p1.Apresentar();
