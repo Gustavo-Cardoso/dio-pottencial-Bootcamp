@@ -38,3 +38,6 @@ Alguns exemplos de paradigmas:
 *Programação orientada a eventos.
 *Programação lógica.
 
+----------------------- Classe selada -----------------------
+
+A classe selada tem como objetivo impedir que outras classes façam uma herança dela. Isso vale tanto para classes como métodos

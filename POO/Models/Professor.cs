@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace POO.Models
 {
-    public class Professor : Pessoa
+    public /*sealed*/ class Professor : Pessoa // Sealed tem como objetivo impedir que seja feito a herança dessa classe
     {
         public Professor()
         {
@@ -19,7 +19,7 @@ namespace POO.Models
 
         public decimal Salario { get; set; }
 
-        public override void Apresentar()
+        public /*sealed*/ override void Apresentar() // Sealed tem como objetivo impedir que seja feito a herança dessa classe
         {
             Console.WriteLine($"Olá, meu nome é {Nome}, tenho {Idade} anos, sou um professor e ganha {Salario}");
         }
