@@ -31,8 +31,13 @@
 // p1.Salario = 2056.00M;
 // p1.Apresentar();
 
-/*Usando classe abstrata na prática*/
+/* Usando classe abstrata na prática */
+// Corrente c = new Corrente();
+// c.Creditar(500);
+// c.ExibirSaldo();
 
-Corrente c = new Corrente();
-c.Creditar(500);
-c.ExibirSaldo();
+/* Construtor por herança */
+Pessoa p = new Pessoa("Gustavo");
+Aluno a = new Aluno("Lucas");
+
+a.Apresentar();
