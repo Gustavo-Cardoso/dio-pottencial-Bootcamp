@@ -1,4 +1,5 @@
 ﻿using POO.Models;
+using POO.Interfaces;
 
 /* Abstração */
 // Pessoa p1 = new Pessoa();
@@ -43,5 +44,13 @@
 // a.Apresentar();
 
 /* Classe OBJECT na prática */
-Computador c = new Computador();
-Console.WriteLine(c.ToString());
+// Computador c = new Computador();
+// Console.WriteLine(c.ToString());
+
+/* Interface na prática */
+ICalculadora calc = new Calculadora();
+
+Console.WriteLine(calc.Somar(9, 3));
+Console.WriteLine(calc.Subtrair(9, 3));
+Console.WriteLine(calc.Multiplicar(9, 3));
+Console.WriteLine(calc.Dividir(9, 3));

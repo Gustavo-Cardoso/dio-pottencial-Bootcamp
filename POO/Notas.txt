@@ -40,8 +40,14 @@ Alguns exemplos de paradigmas:
 
 ----------------------- Classe selada -----------------------
 
-A classe selada tem como objetivo impedir que outras classes façam uma herança dela. Isso vale tanto para classes como métodos
+A classe selada tem como objetivo impedir que outras classes façam uma herança dela. Isso vale tanto para 
+classes como métodos.
 
 ----------------------- Classe Object -----------------------
 
-System.Object é a mãe de todas as classes na hierarquia do .Net
+System.Object é a mãe de todas as classes na hierarquia do .Net.
+
+----------------------- Interface -----------------------
+
+Uma interface é um contrato que pode ser implementado por uma classe. Assim como uma classe abstrata, uma interface 
+não pode ser instanciada.
