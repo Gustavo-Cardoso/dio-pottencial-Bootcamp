@@ -41,3 +41,7 @@ Alguns exemplos de paradigmas:
 ----------------------- Classe selada -----------------------
 
 A classe selada tem como objetivo impedir que outras classes façam uma herança dela. Isso vale tanto para classes como métodos
+
+----------------------- Classe Object -----------------------
+
+System.Object é a mãe de todas as classes na hierarquia do .Net

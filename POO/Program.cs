@@ -37,7 +37,11 @@
 // c.ExibirSaldo();
 
 /* Construtor por herança */
-Pessoa p = new Pessoa("Gustavo");
-Aluno a = new Aluno("Lucas");
+// Pessoa p = new Pessoa("Gustavo");
+// Aluno a = new Aluno("Lucas");
 
-a.Apresentar();
+// a.Apresentar();
+
+/* Classe OBJECT na prática */
+Computador c = new Computador();
+Console.WriteLine(c.ToString());
