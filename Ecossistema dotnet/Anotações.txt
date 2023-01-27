@@ -1,0 +1,15 @@
+Como funciona o protocolo HTTP?
+
+HTTP vai fazer o intermédio entre cliente e servidor
+
+Browser -> Implementa o cliente HTTP
+Servidor -> Host objetos web (recursos solicitados pelo cliente)
+
+Cliente é responsável pelo request HTTP (objetos web/recursos) e o servidor vai responder com o response HTTP, utilizando o 
+protocolo TCP/IP da camada de transporte.
+
+Obs.: TCP/IP ele faz o controle de fluxo, ele tem um maior controle dos pacotes que estão sendo enviados entre servidor e cliente
+
+Tudo isso é uma arquitetura client-server
+
+
