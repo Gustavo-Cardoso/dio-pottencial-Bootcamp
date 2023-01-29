@@ -1,4 +1,4 @@
-Como funciona o protocolo HTTP?
+--------------Como funciona o protocolo HTTP?--------------
 
 HTTP vai fazer o intermédio entre cliente e servidor
 
@@ -12,4 +12,17 @@ Obs.: TCP/IP ele faz o controle de fluxo, ele tem um maior controle dos pacotes 
 
 Tudo isso é uma arquitetura client-server
 
+--------------Para que serve os Cookies e Cache?--------------
 
+*Cookies:
+A ideia do cookie é ratrear as informações do cliente (track). O cookie é um pedaço de bloco com informações do cliente
+
+Existe 2 tipos de Cookies: Cookies de sessão: Quando a sessão é finalizada, os cookies também são finalizados.
+                           Cookies de persistentes: São mantidos por meses ou anos dentro do computador. Exemplo: Quando mantenho meu
+                                                    login ativo. Outro exemplo, carrinho de ecommerce (amazon, mercado livre...)
+
+*Cache:
+É um proxy server. O server recebe o dados e campara com dados da minha máquina
+
+Por que do uso do proxy?:
+Redução do tempo de resposta e redução do tráfico.
