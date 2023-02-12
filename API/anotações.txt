@@ -1,3 +1,0 @@
-O que é uma API(Application Programming Interface) é uma forma de comunicação entre computadores ou software de computadores.
-Em resumo, APi nada mais é do que um software que fornece informações para outro software. Com ela eu consigo buscar informações
-em outros sistemas e trazer para o meu.
