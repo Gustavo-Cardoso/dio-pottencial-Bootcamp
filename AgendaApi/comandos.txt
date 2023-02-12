@@ -1,0 +1,17 @@
+/*Toda vez que eu criar um novo projeto, tenho que instalar esses pacotes*/
+
+dotnet add package Microsoft.EntityFrameWorkCore.Desig
+
+dotnet add package Microsoft.EntityFrameWorkCore.SqlServer
+
+/*Para rodar a API*/ 
+
+dotnet watch run
+
+/*Para criar uma migration*/
+
+dotnet-ef migrations add /*DescriacoMigration*/
+
+/*Após rodar o comando da criação da migration*/
+
+dotnet-ef database update
