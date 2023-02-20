@@ -12,6 +12,10 @@ dotnet watch run
 
 dotnet-ef migrations add /*DescriacoMigration*/
 
+/*Para aplicar uma migration no banco*/
+
+dotnet-ef database update
+
 /*Após rodar o comando da criação da migration*/
 
 dotnet-ef database update
