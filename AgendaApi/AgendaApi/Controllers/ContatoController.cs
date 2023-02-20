@@ -31,7 +31,7 @@ namespace AgendaApi.Controllers
             return Ok(contato);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("ObterPorId")]
         public IActionResult ObterPorId(int id)
         {
             var contato = _context.Contatos.Find(id);
@@ -40,6 +40,13 @@ namespace AgendaApi.Controllers
                 return NotFound();
 
             return Ok(contato);
+        }
+
+        [HttpGet("ObterPorNome")]
+        public IActionResult ObterPorNome(string nome)
+        {
+            var contatos = _context.Contatos.Where(x => x.Nome.Contains(nome));
+            return Ok(contatos);
         }
 
         [HttpPut("{id}")]
