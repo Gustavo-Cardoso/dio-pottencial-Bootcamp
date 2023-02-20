@@ -22,13 +22,9 @@ namespace AgendaApi.Controllers
         [HttpPost]
         public IActionResult Create(Contato contato)
         {
-            var date = new DateTime();
-
-            contato.DataCadastro = date;
-            contato.DataAtualizacao = date;
             _context.Add(contato);
             _context.SaveChanges();
-            return Ok(contato);
+            return CreatedAtAction(nameof(ObterPorId), new {id = contato.Id}, contato);
         }
 
         [HttpGet("ObterPorId")]
@@ -53,7 +49,6 @@ namespace AgendaApi.Controllers
         public IActionResult Atualizar(int id, Contato contato)
         {
             var contatoBanco = _context.Contatos.Find(id);
-            // var date = new DateTime();
 
             if (contatoBanco == null)
                 return NotFound();
@@ -61,7 +56,6 @@ namespace AgendaApi.Controllers
             contatoBanco.Nome = contato.Nome;
             contatoBanco.Telefone = contato.Telefone;
             contatoBanco.Ativo = contato.Ativo;
-            // contatoBanco.DataAtualizacao = contato.DataAtualizacao;
 
             _context.Contatos.Update(contatoBanco);
             _context.SaveChanges();
